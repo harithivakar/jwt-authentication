@@ -2,6 +2,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 const router = require('./routes/auth.js');
 
+
 require('./config/database.js').connect();
 
 const express = require('express');
